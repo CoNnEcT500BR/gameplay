@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react';
 import { View, Text } from 'react-native';
 import { SvgProps } from 'react-native-svg';
 import { RectButton, RectButtonProps } from 'react-native-gesture-handler';
 import { LinearGradient } from 'expo-linear-gradient';
 
-import { styles } from "./styles";
-import { theme } from "../../global/styles/theme";
+import { styles } from './styles';
+import { theme } from '../../global/styles/theme';
 
 type Props = RectButtonProps & {
     title: string;

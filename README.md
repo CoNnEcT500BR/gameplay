@@ -21,19 +21,19 @@
 
 ## ✨ Tecnologias
 
--   [ ] React Native
--   [ ] Typescript
--   [ ] Expo
+-   [X] React Native
+-   [X] Typescript
+-   [X] Expo
 -   [ ] Context API
 -   [ ] Async Storage
--   [ ] Vector Icons
--   [ ] React Native Svg e Svg Transform
+-   [X] Vector Icons
+-   [X] React Native Svg e Svg Transform
 -   [ ] Axios
--   [ ] Gradient colors
+-   [X] Gradient colors
 -   [ ] OAuth2 Discord 
--   [ ] Expo Google Fonts
--   [ ] React Navigation Stack
--   [ ] React Native Gesture Handler
+-   [X] Expo Google Fonts
+-   [X] React Navigation Stack
+-   [X] React Native Gesture Handler
 -   [ ] Expo Authentication
 -   [ ] React Native Share
 -   [ ] Deep Link

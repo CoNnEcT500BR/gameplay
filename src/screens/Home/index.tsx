@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState } from 'react';
 import { FlatList, View } from 'react-native';
 
@@ -53,11 +54,15 @@ export function Home() {
         navigation.navigate('AppointmentsDetails');
     }
 
+    function handleAppointmentsCreate() {
+        navigation.navigate('AppointmentsCreate');
+    }
+
     return (
         <Background>
             <View style={styles.header}>
                 <Profile />
-                <ButtonAdd />
+                <ButtonAdd onPress={handleAppointmentsCreate} />
             </View>
                 <CategorySelect 
                     categorySelected={category}
